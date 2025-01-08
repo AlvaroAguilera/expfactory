@@ -40,15 +40,22 @@ DESCRIPTION = "software to generate a reproducible container battery of experime
 LICENSE = "LICENSE"
 
 INSTALL_REQUIRES = (
-    ("flask", {"min_version": "2.0"}),
-    ("flask-restful", {"min_version": "0.3.6"}),
+    ("blinker", {"exact_version": "1.7.0"}),
+    ("flask", {"exact_version": "3.0.0"}),
+    ("flask-restful", {"exact_version": "0.3.10"}),
     ("flask-blueprint", {"exact_version": "1.2.2"}),
-    ("Flask-WTF", {"min_version": "0.14.2"}),
-    ("Flask-SQLAlchemy", {"min_version": "2.3.2"}),
-    ("flask-cors", {"min_version": "3.0.6"}),
-    ("markupsafe", {"min_version": "2.0.1"}),
-    ("requests", {"min_version": "2.12.4"}),
-    ("retrying", {"min_version": "1.3.3"}),
+    ("Flask-WTF", {"exact_version": "1.2.1"}),
+    ("Flask-SQLAlchemy", {"exact_version": "3.1.1"}),
+    ("flask-cors", {"exact_version": "4.0.0"}),
+    ("importlib-metadata", {"exact_version": "6.8.0"}),
+    ("markupsafe", {"exact_version": "2.1.3"}),
+    ("requests", {"exact_version": "2.31.0"}),
+    ("retrying", {"exact_version": "1.3.4"}),
+    ("setuptools", {"exact_version": "45.2.0"}),
+    ("six", {"exact_version": "1.16.0"}),
+    ("werkzeug", {"exact_version": "3.0.1"}),
+    ("urllib3", {"exact_version": "2.0.7"}),
+    ("jinja2", {"exact_version": "3.1.2"}),
 )
 
 # Original working versions, in case needed
